@@ -1,0 +1,79 @@
+/* App.css */
+
+.landing-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  max-width: 800px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.quote-div {
+  text-align: center;
+}
+
+.landing-heading {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333; /* Change color as needed */
+}
+
+.para {
+  font-size: 1.25rem;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #333; /* Change color as needed */
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #555; /* Change color as needed */
+}
+
+/* Loader styles */
+.color-ring-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; /* Adjust height as needed */
+}
+
+/* Customize loader colors */
+.react-spinner-loader {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.react-spinner-loader div {
+  background-color: #e15b64; /* Adjust colors as needed */
+}
+
+.react-spinner-loader div:nth-child(2) {
+  background-color: #f47e60;
+}
+
+.react-spinner-loader div:nth-child(3) {
+  background-color: #f8b26a;
+}
+
+.react-spinner-loader div:nth-child(4) {
+  background-color: #abbd81;
+}
+
+.react-spinner-loader div:nth-child(5) {
+  background-color: #849b87;
+}
